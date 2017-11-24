@@ -1,0 +1,15 @@
+void digitocriar(int conta, int indice){
+	int vetor[4], i = 5, soma = 0;
+	for(int i = 0; i < 4; i++){
+		vetor[i] = conta % 10;
+		conta /= 10;
+	}
+	for(int i = 3; i > 0; i--){
+		vetor[i] *= i + 5;
+		soma += vetor[i];
+	}
+	conta.numero[indice] *= 10;
+	conta.numero[indice] += soma % 11;					
+}
+
+Erro: request for member ‘numero’ in ‘conta’, which is of non-class type ‘int’

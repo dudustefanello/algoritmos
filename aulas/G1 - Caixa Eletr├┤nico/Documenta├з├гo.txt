@@ -1,0 +1,36 @@
+Contas (função cadastro):
+	void - nao há retorno para a função que chamou.
+	Utilização de Struct "contas"
+		char nome[200][50];
+		char sobrenome[200][50];
+			foi usado scanf pois será lido apenas o primeiro e o ultimo nome em strings diferentes
+		int conta[200];
+		double saldo[200];
+		int senha[200];
+
+Operações (função operacao):
+	void - nao há retorno para a função que chamou.
+
+Verificador de Dígito (função digito):
+	short - retorna 1 ou 0;
+	retorna 0 para válido ou 1 para inválido;
+	=> verificar ou criar digito?
+
+Verificador de CPF
+	short - retorna 1 ou 0;
+	retorna 0 para válido ou 1 para inválido;
+	Verifica sintaxe:
+		XXX.XXX.XXX-XX
+	=> verificar sintaxe apenas ou verificar digito?
+
+Saldo (função saldo)
+	encontrar indice do cliente pelo numero de conta informado
+		Usa retorno da função indicar
+
+Limites Diários (função limites)
+	estabeler limites diários de saques (500 reais por dia e 3 saques por dia)
+
+Erros Extras:
+	0001 - Operação nao reconhecida;
+	0002 - Digito Verificador inválido;
+	0003 - CPF Inválido

@@ -1,0 +1,3 @@
+- Criar ou verificar digito verificador da conta?
+- CPF verificar sintaxe apenas ou digito verificador também?
+- Podem ser usadas variáveis Globais?
